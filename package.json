@@ -1,0 +1,44 @@
+{
+  "name": "react-modal-wealthealth",
+  "version": "1.0.0",
+  "description": "Composant Modal React simple (overlay, fermeture au clic extérieur + bouton de fermeture), extrait du projet HRnet.",
+  "private": false,
+  "type": "module",
+  "main": "./dist/react-modal-wealthealth.cjs.js",
+  "module": "./dist/react-modal-wealthealth.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/react-modal-wealthealth.es.js",
+      "require": "./dist/react-modal-wealthealth.cjs.js"
+    },
+    "./react-modal-wealthealth.css": "./dist/react-modal-wealthealth.css"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mxf96/react-modal-wealthealth.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Mxf96/react-modal-wealthealth/issues"
+  },
+  "homepage": "https://github.com/Mxf96/react-modal-wealthealth#readme",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.1.2",
+    "sass": "^1.97.2",
+    "vite": "^7.3.1"
+  }
+}
