@@ -1,0 +1,8 @@
+npm create vite@latest react-modal-wealthealth -- --template react
+npm install
+npm install react-router-dom
+npm install sass
+npm login
+npm run build
+npm publish --dry-run
+npm publish

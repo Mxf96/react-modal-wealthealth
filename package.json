@@ -11,7 +11,7 @@
       "import": "./dist/react-modal-wealthealth.es.js",
       "require": "./dist/react-modal-wealthealth.cjs.js"
     },
-    "./react-modal-wealthealth.css": "./dist/react-modal-wealthealth.css"
+    "./style.css": "./dist/react-modal-wealthealth.css"
   },
   "files": [
     "dist",
