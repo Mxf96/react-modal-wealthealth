@@ -42,11 +42,11 @@ export default function Example() {
 ---
 ## Props
 
-| Prop | Type | Obligatoire | Description |
-| ---------------------- | ---------------------------------------------------- |
-|`isOpen`|`boolean`|Oui|Affiche/masque la modale|
-|`onClose`|`() => void`|Oui|Fonction appelée pour fermer la modale|
-|`children`|`ReactNode`|Oui|Contenu affiché dans la modale|
+|    Prop    | Type         | Obligatoire |            Description                 |
+| ---------- | ------------ | ----------- | -------------------------------------- |
+| `isOpen`   | `boolean`    | Oui         | Affiche/masque la modale               |
+| `onClose`  | `() => void` | Oui         | Fonction appelée pour fermer la modale |
+| `children` | `ReactNode`  | Oui         | Contenu affiché dans la modale         |
 
 ---
 ## Comportement
