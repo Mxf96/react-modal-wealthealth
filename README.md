@@ -22,9 +22,8 @@ Si tu es sur Vite / CRA, installe Sass :
 ---
 ## Utilisation
 
-`import { useState } from "react";
-
 ```jsx
+import { useState } from "react";
 import Modal from "@ton-scope/wealthealth-modal";
 export default function Example() {
   const [isOpen, setIsOpen] = useState(false);
