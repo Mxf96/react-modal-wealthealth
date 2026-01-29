@@ -22,7 +22,7 @@ Si tu es sur Vite / CRA, installe Sass :
 ---
 ## Utilisation
 
-`import { useState } from "react";
+<!-- import { useState } from "react";
 
 import Modal from "@ton-scope/wealthealth-modal";
 export default function Example() {
@@ -36,7 +36,7 @@ export default function Example() {
       </Modal>
     </>
   );
-}`
+} -->
 
 ---
 ## Props
