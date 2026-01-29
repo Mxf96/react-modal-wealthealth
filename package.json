@@ -1,6 +1,6 @@
 {
   "name": "react-modal-wealthealth",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Composant Modal React simple (overlay, fermeture au clic extérieur + bouton de fermeture), extrait du projet HRnet.",
   "private": false,
   "type": "module",
